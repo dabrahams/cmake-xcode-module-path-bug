@@ -1,4 +1,4 @@
-# Demonstrates a bug in Swift, xcodebuild and/or CMake
+# Demonstrates a bug CMake (or possibly xcodebuild).
 
 This command works fine:
 
