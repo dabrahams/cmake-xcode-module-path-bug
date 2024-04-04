@@ -1,4 +1,4 @@
-# Demonstrates a bug CMake (or possibly xcodebuild).
+# Demonstrates a bug in CMake (or possibly xcodebuild).
 
 This command works fine:
 
