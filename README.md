@@ -35,3 +35,5 @@ The failing command follows.  It is no surprise that it can't find RealModule. T
 The CMake project's Swift Package Manager translation is in
 `Package.swift`. Opening that file in Xcode and building there works,
 and `swift build` works.
+
+**Note:** [swift-numerics](https://github.com/apple/swift-numerics) (which see) does some questionable things with global module path settings in its top-level CMakeLists.txt that may be triggering the problem, but presumably if the ninja generator can handle those things, the Xcode generator should be able to also.
