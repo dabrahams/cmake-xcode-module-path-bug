@@ -1,5 +1,7 @@
 # Demonstrates a bug in CMake's Xcode generator with add_subdirectory and Swift modules
 
+([corresponding CMake issue](https://gitlab.kitware.com/cmake/cmake/-/issues/25864))
+
 This command works fine:
 
 ```
